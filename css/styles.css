@@ -682,6 +682,8 @@ margin-bottom: 9px;
 }
 
 .footer-icon{
+
+    margin-right: 93px;
     margin-left: 70px;
     list-style: none;
 
@@ -736,6 +738,58 @@ display: flex;
 .network-footer{
         fill:#fff;
 }
+.footer-mail-cont h2{
+    color: #fff;
+    font-family: Roboto;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-align: left;
+    margin-right: 10px;
+        margin-bottom: 20px;
+ 
+}
+.footer-mail{
+    display:flex;
+   
+}
+.btn-footer-mail{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88px;
+margin-left: 12px;
+
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+    /* width: 200px;
+    height: 50px; */
+    border-radius: 4px;
+    padding-left: 29px;
+    border: none;
+    color:#fff;
+    background-color:var(--accent-text-color)
+
+}
+.send-svg{
+margin: 10px;
+}
+.email-footer{
+    width: 358px;
+    height: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+    background-color:rgba(47, 48, 58, 1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+}
+
 
  /* МОДАЛКА */
 .backdrop{
