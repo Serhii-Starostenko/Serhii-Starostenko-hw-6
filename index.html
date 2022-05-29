@@ -17,7 +17,7 @@
     <div class="header">
     <header class="headers" >
        
-        <div class="header-container" >
+        <div class="header-container" >  
         <nav class="cont-position">
         <a class="logo-color" href="./index.html"> <span class="logo"> Web</span>Studio</a>
             <ul class="nav-menu">
@@ -331,41 +331,56 @@
 </div>
 <div class="backdrop is-hidden" data-modal>
     <div class="modal">
-    <button class="modal-close"data-modal-close> <svg width="30px" height="30px" class="close">
-        <use href="./images/icons.svg#close"></use>
+    <button class="modal-close"data-modal-close> <svg class="modal-close-svg" width="30px" height="30px" class="close">
+        <use  href="./images/icons.svg#close"></use>
     </svg></button>
 
     <form class="modal-form" autocomplete="on">
-        <b>Оставьте свои данные, мы вам перезвоним</b>
-       <div class="form-label">
-        <label   for="name">
-            Имя</label>
-            <input type="text"name="name" id="name" placeholder="name" autofocus >
+        <div class="modal-titile"><b>Оставьте свои данные, мы вам перезвоним</b></div>
         
+       <div class="form-fild">
+           <input class="modal-input" type="text"name="name" id="name"  >
+           <label  class="modal-label" for="name">Имя</label>
+     <svg class="modal-svg"  width="18px" height="18px">
+        <use href="./images/icons.svg#name" ></use>
+     </svg>
         </div>
-            <div>
-                <label for="tel">Телефон </label>
-                    <input class="modal-form" type="tel" name="tel" id="tel" placeholder="tel">
-               
-            </div>
-       <div>
+            <div class="form-fild">
+                <input class="modal-input" type="tel" name="tel" id="tel" >
 
-        <label for="email">Почта</label>
-            <input type="email" name="email" id="email" placeholder="E-mail">
-        
+                <label class="modal-label"  for="tel">Телефон </label>
+
+                <svg class="modal-svg"  width="18px" height="18px">
+                    <use href="./images/icons.svg#tel-modal" ></use>
+                </svg>
+            </div>
+       <div class="form-fild">
+
+           <input class="modal-input" type="email" name="email" id="email" >
+           <label class="modal-label"  for="email">Почта</label>
+           <svg class="modal-svg" width="18px" height="18px">
+            <use href="./images/icons.svg#mail" ></use>
+        </svg>
        </div>
-        <div>
-            <label for="coment"> Коментарий</label>
-                <textarea name="coment" id="coment" cols="30" rows="10" placeholder="Введите текст"></textarea>
+        <div class="form-fild">
+            <label class="modal-label"  for="coment"> Коментарий</label>
+            <textarea class="input-tetxterea"  name="coment" id="coment"  rows="10" placeholder="Введите текст"></textarea>
             
         </div>
        
-        <div>
-            <button class="" type="submit">Отправить</button>
+        
+        <div class="form-fild">
+            <label class="checkbox-label"  for="checkbox">
+        <input class="modal-checkbox" type="checkbox" name="checkbox" id="checkbox">
+        <span class="checkbox" ></span>
+         Соглашаюсь с рассылкой и принимаю <a class="checkbox-link" href="#"> Условия договора</a>
+     </label>
+    </div>
+        <div class="form-button">
+            <button class="modal-button" type="submit">Отправить</button>
         </div>
-        <label for="">
-            <input type="checkbox" name="checkbox" id="checkbox"> Соглашаюсь с рассылкой и принимаю Условия договора
-        </label>
+    </div>
+        
         
     </form>
 </div>
