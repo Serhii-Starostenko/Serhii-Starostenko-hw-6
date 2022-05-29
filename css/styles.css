@@ -969,6 +969,9 @@ padding:12px 16px;
     color: #757575;
 
 }
+.checkbox-label a{
+    
+}
 .checkbox{
   
 width:16px;
@@ -979,6 +982,7 @@ margin-right:9px;
 }
 .checkbox-link{
 color: var(--accent-text-color);
+margin-left: 3px;
 }
 
 .modal-button{
